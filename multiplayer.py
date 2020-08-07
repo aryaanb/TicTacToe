@@ -2,12 +2,12 @@ import pygame
 from time import sleep
 import home
 
-X = pygame.image.load("X.png")
-O = pygame.image.load("O.png")
-linev = pygame.image.load("line.png")
-lineh = pygame.image.load("lineh.png")
-line_d1 = pygame.image.load("diagonal1.png")
-line_d2 = pygame.image.load("diagonal2.png")
+X = pygame.image.load("images/X.png")
+O = pygame.image.load("images/O.png")
+linev = pygame.image.load("images/line.png")
+lineh = pygame.image.load("images/lineh.png")
+line_d1 = pygame.image.load("images/diagonal1.png")
+line_d2 = pygame.image.load("images/diagonal2.png")
 clock = pygame.time.Clock()
 turn = 0
 playedx = False

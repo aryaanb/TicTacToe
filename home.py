@@ -7,9 +7,9 @@ WIDTH = 450
 window = pygame.display.set_mode((WIDTH, WIDTH))
 window.fill((255, 255, 255))
 pygame.display.set_caption("Tic Tac Toe!")
-bg = pygame.image.load("bg.png")
-against = pygame.image.load("against.png")
-multi = pygame.image.load("multi.png")
+bg = pygame.image.load("images/bg.png")
+against = pygame.image.load("images/against.png")
+multi = pygame.image.load("images/multi.png")
 clock = pygame.time.Clock()
 turn = 0
 playedx = False
